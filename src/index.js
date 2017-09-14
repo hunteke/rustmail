@@ -2,6 +2,7 @@
 // import 'isomorphic-fetch';
 import { h, render } from 'preact';
 import './style';
+import './lib/font-awesome-4.7.0/css/font-awesome.min.css'
 
 let root;
 function init() {

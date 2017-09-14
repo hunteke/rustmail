@@ -12,17 +12,17 @@
 	background:#404040;
 	height:100%;
 	position: fixed;
+	margin-top:15px;
 }
 .folderContainer{
 	height:100%;
 	width:100%;
-	padding:20px;
 }
 .folders{
 	list-style:none;
 	width:100%;
 	padding:0;
-	margin:0;
+	margin:15px 0px;
 
 	li{
 		color:#fff;
@@ -30,9 +30,14 @@
 		margin:20px 0px;
 		line-height:10px;
 		border-bottom: 1px outset #474747;
+		padding:0px 15px;
+
+		span{
+			float:left;
+		}
 
 		.counter{
-			float:right;
+			float:left;
 			font-size:14px;
 			font-weight:bold;
 			background:#DB480B;
@@ -40,7 +45,15 @@
 			text-align:center;
 			border-radius:10px;
 			position: relative;
-			bottom:3px;
+			bottom:4px;
+			left:10px;
+		}
+
+		i{
+			float:right;
+			font-size:24px;
+			position:relative;
+			bottom:8px;
 		}
 	}
 }

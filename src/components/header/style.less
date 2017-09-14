@@ -11,19 +11,10 @@
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 	z-index: 50;
 
-	h1 {
-		float: left;
-		margin: 0;
-		padding: 0 15px;
-		font-size: 24px;
-		line-height: 56px;
-		font-weight: 400;
-		color: #FFF;
-	}
-
 	nav {
-		float: right;
 		font-size: 100%;
+		height:100%;
+		width:auto;
 
 		a {
 			display: inline-block;
@@ -40,6 +31,122 @@
 			&:hover, &:active {
 				background: rgba(255,255,255,0.3);
 			}
+
 		}
 	}
+}
+.accountManager{
+	padding: 10px 15px;
+	height: 100%;
+	width: 15%;
+	box-sizing: border-box;
+	border-bottom: 2px solid #DB480B;
+	line-height: 38px;
+	display: inline-block;
+	float: left;
+	border-right: 1px outset #474747;
+}
+.currentAccount{
+	color:#fff;
+}
+.currentAccount i{
+	float:right;
+	font-size:24px;
+	position: relative;
+	top:8px;
+}
+.listActionMenu{
+	padding: 10px 15px;
+	height: 100%;
+	box-sizing: border-box;
+	background:#404040;
+	border-bottom: 2px solid #DB480B;
+	line-height: 38px;
+	width:30%;
+	display:inline-block;
+	float:left;
+	border-right: 1px outset #474747;
+	color:#fff;
+
+	.listTool{
+		padding:5px;
+		box-sizing:border-box;
+		position: relative;
+		margin-right:15px;
+
+		i{
+			color:#DB480B;
+		}
+
+		.moveArrow,
+		.filterArrow{
+			margin-left:10px;
+		}
+
+	}
+
+	.listTool:hover{
+		border:1px groove #474747;
+		border-radius:5px;
+		background:#4D4D4D;
+	}
+
+	.smallText{
+		font-size:10px;
+		position: relative;
+		bottom:2px;
+		left:5px;
+		color:#fff;
+	}
+
+}
+.emailActionMenu{
+	padding:10px 15px;
+	height:100%;
+	width:55%;
+	float:left;
+	border-bottom:2px solid #DB480B;
+	line-height:38px;
+
+	h1 {
+		float: right;
+		margin: 0;
+		padding: 0 15px;
+		font-size: 24px;
+		line-height: 38px;
+		font-weight: 400;
+		color: #FFF;
+	}
+
+	.emailTool{
+		padding:5px;
+		box-sizing:border-box;
+		position: relative;
+		margin-right:15px;
+
+		i{
+			color:#DB480B;
+		}
+
+		.moveArrow,
+		.filterArrow{
+			margin-left:10px;
+		}
+
+	}
+
+	.emailTool:hover{
+		border:1px groove #474747;
+		border-radius:5px;
+		background:#4D4D4D;
+	}
+
+	.smallText{
+		font-size:10px;
+		position: relative;
+		bottom:2px;
+		left:5px;
+		color:#fff;
+	}
+
 }

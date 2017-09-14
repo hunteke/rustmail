@@ -8,11 +8,11 @@ export default class Home extends Component {
 				<div class={style.folderSidebar}>
 					<div class={style.folderContainer}>
 						<ul class={style.folders}>
-							<li>Inbox<div class={style.counter}>33</div></li>
-							<li>Favorites</li>
-							<li>Outbox</li>
-							<li>Drafts<div class={style.counter}>2</div></li>
-							<li>Trash<div class={style.counter}>17</div></li>
+							<li><span>Inbox</span><div class={style.counter}>33</div><i class="fa fa-angle-down" aria-hidden="true"></i></li>
+							<li><span>Favorites</span><i class="fa fa-angle-down" aria-hidden="true"></i></li>
+							<li><span>Outbox</span><i class="fa fa-angle-down" aria-hidden="true"></i></li>
+							<li><span>Drafts</span><div class={style.counter}>2</div><i class="fa fa-angle-down" aria-hidden="true"></i></li>
+							<li><span>Trash</span><div class={style.counter}>17</div><i class="fa fa-angle-down" aria-hidden="true"></i></li>
 						</ul>
 					</div>
 				</div>
